@@ -1,6 +1,10 @@
 let a = 0
 let b = 0
 
+$(document).ready(()=>{
+    console.log("shown...");
+})
+
 function init(){
         a = Number($('#firstnumber').val())
         b = Number($('#secondnumber').val())
