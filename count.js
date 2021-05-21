@@ -8,20 +8,20 @@ function init(){
 
 function add(){
     init()
-    $('#result').text(a+b)
+    $('#result').text("Result is : "+(a+b))
 }
 
 function sub(){
     init()
-    $('#result').text(a-b)
+    $('#result').text("Result is : "+(a-b))
 }
 
 function mul(){
     init()
-    $('#result').text(a*b)
+    $('#result').text("Result is : "+(a*b))
 }
 
 function div(){
     init()
-    $('#result').text(a%b)
+    $('#result').text("Result is : "+(a%b))
 }
