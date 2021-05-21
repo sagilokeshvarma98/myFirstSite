@@ -17,7 +17,7 @@ input{
 
 #buttonDiv{
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 button{
@@ -28,4 +28,14 @@ button{
     height: 25px;
     border-radius: 8px;
     margin-left: 20px;
+}
+
+#resultDiv{
+    margin-left: 30%;
+    margin-top : 50px
+}
+
+#result{
+    font-size: x-large;
+    color: rgb(30, 29, 143);
 }
