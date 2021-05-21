@@ -1,0 +1,31 @@
+p{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#numericDiv{
+    margin-left: 33%;
+    margin-top: 10%;
+}
+
+input{
+    border: 2px solid rgb(65, 65, 128);
+    height: 20px;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#buttonDiv{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+button{
+    font-size: 15px;
+    color: rgb(33, 27, 34);
+    text-align: center;
+    border: 2px solid rgb(151, 224, 157);
+    height: 25px;
+    border-radius: 8px;
+    margin-left: 20px;
+}

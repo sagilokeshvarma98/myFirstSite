@@ -11,12 +11,21 @@
             <form action="">
                 <table>
                     <tr>
-                        <td>Enter two numbers</td>
-                        <td><input type="number" placeholder="Please enter a number"></td>
-                        <td><input type="number" placeholder="Please enter a number"></td>
+                        <td><p>Enter two numbers</p></td>
+                        <td><input id="firstnumber" type="number" placeholder="Enter first number"></td>
+                        <td><input id="secondnumber" type="number" placeholder="Enter second number"></td>
                     </tr>
                 </table>
             </form>
+            <div id="buttonDiv">
+                <button onclick=add()>Add</button>
+                <button onclick=sub()>Subtract</button>
+                <button onclick=mul()>Multiply</button>
+                <button onclick=mod()>Modulous</button>
+            </div>
+            <div id="resultDiv">
+                <p id="result"></p>
+            </div>
         </div>
     </body>
 </html>
