@@ -3,8 +3,8 @@
 <html>
     <head>
         <title>Watch...</title>
-        <script src="count.js"></script>
         <script src="jquery-3.6.0.min.js"></script>
+        <script src="count.js"></script>
         <link rel="stylesheet" href="count.css">
     </head>
     <body>
@@ -14,15 +14,15 @@
                     <tr>
                         <td><p>Enter two numbers</p></td>
                         <td><input id="firstnumber" type="number" placeholder="Enter first number"></td>
-                        <td><input id="secondnumber" type="number" placeholder="Enter second number" ></td>
+                        <td><input id="secondnumber" type="number" placeholder="Enter second number"></td>
                     </tr>
                 </table>
             </form>
             <div id="buttonDiv">
-                <button onclick=add()>Add</button>
-                <button onclick=sub()>Subtract</button>
-                <button onclick=mul()>Multiply</button>
-                <button onclick=div()>Division</button>
+                <button onclick=add(firstnumber.value,secondnumber.value)>Add</button>
+                <button onclick=sub(firstnumber.value,secondnumber.value)>Subtract</button>
+                <button onclick=mul(firstnumber.value,secondnumber.value)>Multiply</button>
+                <button onclick=div(firstnumber.value,secondnumber.value)>Division</button>
             </div>
             <div id="resultDiv">
                 <p id="result"></p>

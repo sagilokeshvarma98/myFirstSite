@@ -1,31 +1,31 @@
-let a = 0
-let b = 0
 
-$(document).ready(()=>{
-    console.log("shown...");
-})
-
-function init(){
-        a = Number($('#firstnumber').val())
-        b = Number($('#secondnumber').val())
+function add(x,y){
+    if(x && y)
+        $('#result').text("Result is : "+(x+y))
+    else
+        alert('please enter both values')
 }
 
-function add(){
-    init()
-    $('#result').text("Result is : "+(a+b))
+function sub(x,y){
+    if(x && y)
+        $('#result').text("Result is : "+(x-y))
+    else
+        alert('please enter both values')
+    
 }
 
-function sub(){
-    init()
-    $('#result').text("Result is : "+(a-b))
+function mul(x,y){
+    if(x && y)
+        $('#result').text("Result is : "+(x*y))
+    else
+        alert('please enter both values')
+    
 }
 
-function mul(){
-    init()
-    $('#result').text("Result is : "+(a*b))
-}
-
-function div(){
-    init()
-    $('#result').text("Result is : "+(a%b))
+function div(x,y){
+    if(x && y)
+        $('#result').text("Result is : "+(x/y))
+    else
+        alert('please enter both values')
+    
 }
